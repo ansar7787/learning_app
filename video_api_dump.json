@@ -1,0 +1,42 @@
+{
+    "status": 1,
+    "message": "Video list fetched",
+    "data": {
+        "title": "Meditation Journey",
+        "videos": [
+            {
+                "id": 1,
+                "title": "Video 1",
+                "description": "Understanding the Basics of Meditation",
+                "status": "completed",
+                "video_url": "http://trogon.info/task/api/images/video/file_example_MP4_640_3MG.mp4",
+                "total_duration": 180,
+                "watched_duration": 180,
+                "progress_percentage": 100,
+                "has_play_button": true
+            },
+            {
+                "id": 2,
+                "title": "Video 2",
+                "description": "Understanding the Basics of Meditation",
+                "status": "in_progress",
+                "video_url": "http://trogon.info/task/api/images/video/file_example_MP4_640_3MG.mp4",
+                "total_duration": 180,
+                "watched_duration": 90,
+                "progress_percentage": 50,
+                "has_play_button": true
+            },
+            {
+                "id": 3,
+                "title": "Video 3",
+                "description": "Understanding the Basics of Meditation",
+                "status": "locked",
+                "video_url": null,
+                "total_duration": 0,
+                "watched_duration": 0,
+                "progress_percentage": 0,
+                "has_play_button": false
+            }
+        ]
+    }
+}

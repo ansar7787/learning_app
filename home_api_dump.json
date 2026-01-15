@@ -1,0 +1,89 @@
+{
+    "user": {
+        "name": "Arjun",
+        "greeting": "Good Morning, Arjun",
+        "streak": {
+            "days": 7,
+            "icon": "\ud83d\udd25"
+        }
+    },
+    "hero_banners": [
+        {
+            "id": 1,
+            "title": "Master New Skills Anytime, Anywhere",
+            "image": "http://trogon.info/task/api/images/banners/Screenshot2025-12-31131948.png",
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "title": "Learn at Your Own Pace",
+            "image": "http://trogon.info/task/api/images/banners/Screenshot2025-12-31131948.png",
+            "is_active": false
+        },
+        {
+            "id": 3,
+            "title": "Expert-Led Courses",
+            "image": "http://trogon.info/task/api/images/banners/Screenshot2025-12-31131948.png",
+            "is_active": false
+        },
+        {
+            "id": 4,
+            "title": "Join Thousands of Learners",
+            "image": "http://trogon.info/task/api/images/banners/Screenshot2025-12-31131948.png",
+            "is_active": false
+        }
+    ],
+    "active_course": {
+        "id": 1,
+        "title": "KTET - Language Teachers",
+        "progress": 35,
+        "tests_completed": 70,
+        "total_tests": 100
+    },
+    "popular_courses": [
+        {
+            "id": 1,
+            "name": "KTET",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Lower Primary",
+                    "image": "http://trogon.info/task/api/images/banners/Frame1171284030.png",
+                    "action": "Explore More"
+                },
+                {
+                    "id": 2,
+                    "title": "Upper Primary",
+                    "image": "http://trogon.info/task/api/images/banners/Frame1171284030.png",
+                    "action": "Explore More"
+                },
+                {
+                    "id": 3,
+                    "title": "Higher Secondary",
+                    "image": "http://trogon.info/task/api/images/banners/Frame1171284030.png",
+                    "action": "Explore More"
+                },
+                {
+                    "id": 4,
+                    "title": "Language Teachers",
+                    "image": "http://trogon.info/task/api/images/banners/Frame1171284030.png",
+                    "action": "Explore More"
+                }
+            ]
+        }
+    ],
+    "live_session": {
+        "id": 1,
+        "is_live": true,
+        "title": "Fundamentals",
+        "instructor": {
+            "name": "Rishi Deep"
+        },
+        "session_details": {
+            "session_number": 3,
+            "date": "10 Dec",
+            "time": "10:00 PM"
+        },
+        "action": "Join Now"
+    }
+}
